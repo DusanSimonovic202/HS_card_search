@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const options = {
       method: "GET",
-      url: `https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/${search}`,
+      url: `https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/search/${search}`,
       headers: {
         "X-RapidAPI-Key": "bcbdf03864msh34ccf7b9c42eda4p12d748jsn062fb40a2698",
         "X-RapidAPI-Host": "omgvamp-hearthstone-v1.p.rapidapi.com",
